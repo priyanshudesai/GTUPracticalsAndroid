@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".prac4.prac4_2"
+    android:background="#ff0000"
+    android:stretchColumns="*">
+<TableRow
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <TextView
+        android:background="@color/red"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROW1 COL1"/>
+    <TextView
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROW1 COL2"/>
+    <TextView
+        android:background="@color/gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROW1 COL3"/>
+
+</TableRow>
+    <TableRow
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:background="@color/blue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROW2 COL1"/>
+        <TextView
+            android:background="@color/colorf1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROW2 COL2"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:background="@color/silver"
+            android:gravity="center"
+            android:layout_span="3"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROW3 COL1"/>
+    </TableRow>
+
+</TableLayout>

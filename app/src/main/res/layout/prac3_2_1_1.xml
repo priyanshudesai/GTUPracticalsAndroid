@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".prac3.prac3_2_1_1">
+    <TextView
+        android:id="@+id/title_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="REGISTARION FORM"/>
+    <TextView
+        android:id="@+id/txt_enter_name_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/title_reg"/>
+    <EditText
+        android:id="@+id/entr_name_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@id/title_reg"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        />
+    <TextView
+        android:id="@+id/txt_enter_last_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/entr_name_reg"/>
+
+    <EditText
+        android:layout_below="@id/entr_name_reg"
+        android:id="@+id/entr_last_name_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Lastname"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        />
+    <TextView
+        android:id="@+id/txt_enter_add_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/entr_last_name_reg"/>
+
+    <EditText
+        android:layout_below="@id/entr_last_name_reg"
+        android:id="@+id/entr_add_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        />
+    <TextView
+        android:id="@+id/txt_enter_email_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/entr_add_reg"/>
+
+    <EditText
+        android:layout_below="@id/entr_add_reg"
+        android:id="@+id/entr_email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        />
+    <TextView
+        android:id="@+id/txt_enter_pass_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/entr_email_reg"/>
+
+    <EditText
+        android:layout_below="@id/entr_email_reg"
+        android:id="@+id/entr_pass_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        />
+        <TextView
+            android:layout_below="@id/entr_pass_reg"
+            android:id="@+id/slct_gender_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Gender" />
+        <RadioGroup
+            android:layout_below="@id/entr_pass_reg"
+            android:layout_toRightOf="@id/txt_enter_last_reg"
+            android:id="@+id/rdo_grp_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+        </RadioGroup>
+        <TextView
+            android:layout_below="@+id/rdo_grp_reg"
+            android:id="@+id/slct_hobies_txt_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Hobbies"/>
+        <CheckBox
+            android:layout_below="@+id/rdo_grp_reg"
+            android:layout_toRightOf="@id/txt_enter_last_reg"
+            android:id="@+id/slct_hobies_sport_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playing Sports"/>
+    <CheckBox
+        android:layout_below="@id/slct_hobies_sport_reg"
+        android:id="@+id/slct_hobies_chess_reg"
+        android:layout_gravity="left"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playing Chess"/>
+    <CheckBox
+        android:layout_below="@id/slct_hobies_sport_reg"
+        android:id="@+id/slct_hobies_music_reg"
+        android:layout_gravity="left"
+        android:layout_toRightOf="@id/txt_enter_last_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playing Chess"/>
+
+    <Button
+        android:layout_below="@id/slct_hobies_music_reg"
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Register"/>
+</RelativeLayout>

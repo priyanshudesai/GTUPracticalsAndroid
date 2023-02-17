@@ -1,0 +1,16 @@
+package com.example.helloworld.prac7;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.example.helloworld.R;
+
+public class prac7 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.prac7);
+    }
+}

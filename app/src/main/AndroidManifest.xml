@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworld">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".prac25.prac25_list"></activity>
+        <activity android:name=".prac25.prac25">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".prac24.prac24"></activity>
+        <activity android:name=".prac23.prac23"></activity>
+        <activity android:name=".prac22.prac22"></activity>
+        <activity android:name=".prac21.prac21"></activity>
+        <activity android:name=".prac20.prac20"></activity>
+        <activity android:name=".prac19.prac19"></activity>
+        <activity android:name=".prac18.prac18_1"></activity>
+        <activity android:name=".prac18.prac18"></activity>
+        <activity android:name=".prac16.prac16_1" />
+        <activity android:name=".prac16.prac16"></activity>
+        <activity android:name=".Practicaltest" />
+        <activity android:name=".prac17.prac17"></activity>
+        <activity android:name=".prac15.prac15" />
+        <activity android:name=".prac14.prac14" />
+        <activity android:name=".prac13.prac13" />
+        <activity android:name=".prac12.prac12_2" />
+        <activity android:name=".prac12.prac12_1" />
+        <activity android:name=".prac11.prac11_2" />
+        <activity android:name=".prac11.prac11_1" />
+        <activity android:name=".prac10.prac10" />
+        <activity android:name=".prac9.prac9_2" />
+        <activity android:name=".prac9.prac9_1" />
+        <activity android:name=".prac8.prac8_2" />
+        <activity android:name=".prac8.prac8" />
+        <activity android:name=".prac7.prac7" />
+        <activity android:name=".prac6.prac6_2" />
+        <activity android:name=".onclicktest" />
+        <activity android:name=".prac6.prac6_1" />
+        <activity android:name=".prac5.prac5_1" />
+        <activity android:name=".prac4.prac4_3_2" />
+        <activity android:name=".prac4.prac4_3" />
+        <activity android:name=".prac4.prac4_2" />
+        <activity android:name=".prac2.prac2" />
+        <activity android:name=".prac3.prac3_2_2" />
+        <activity android:name=".prac3.prac3_1_2_2" />
+        <activity android:name=".prac3.prac3_1_2_1" />
+        <activity android:name=".prac4.prac4_1" />
+        <activity android:name=".prac3.prac3_2_1_2" />
+        <activity android:name=".prac3.prac3_2_1_1" />
+        <activity android:name=".prac3.prac3_1_1" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

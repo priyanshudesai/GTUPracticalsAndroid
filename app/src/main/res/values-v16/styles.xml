@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="pra51" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+    <style name="pra52" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+    <style name="pra53" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+    <style name="pra54" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:text">sans-serif-thin</item>
+    </style>
+</resources>
